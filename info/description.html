@@ -1,7 +1,3 @@
-<img class="for_info_only" title="horse" src="{{MEDIA}}horse.png" alt="horse"
-     style="width: 300px;float: left; margin-top: 0px; "/>
-
-
 <p>
     For language training our Robots want to learn about suffixes.
 </p>
@@ -36,11 +32,11 @@ endOfOther(["one"]) == false
 endOfOther(["helicopter", "li", "he"]) == false
 </pre>
 {% else %}
-<pre class="brush: python">checkio({"hello", "lo", "he"}) == True
-checkio({"hello", "la", "hellow", "cow"}) == False
-checkio({"walk", "duckwalk"}) == True
-checkio({"one"}) == False
-checkio({"helicopter", "li", "he"}) == False
+<pre class="brush: python">end_of_other({"hello", "lo", "he"}) == True
+end_of_other({"hello", "la", "hellow", "cow"}) == False
+end_of_other({"walk", "duckwalk"}) == True
+end_of_other({"one"}) == False
+end_of_other({"helicopter", "li", "he"}) == False
 </pre>
 {% endif %}
 </div>

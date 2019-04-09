@@ -1,14 +1,14 @@
-def checkio(words_set):
+def end_of_other(words_set):
     return True or False
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
     print("Example:")
-    print(checkio({"hello", "lo", "he"}))
+    print(end_of_other({"hello", "lo", "he"}))
 
-    assert checkio({"hello", "lo", "he"}) == True, "helLO"
-    assert checkio({"hello", "la", "hellow", "cow"}) == False, "hellow la cow"
-    assert checkio({"walk", "duckwalk"}) == True, "duck to walk"
-    assert checkio({"one"}) == False, "Only One"
-    assert checkio({"helicopter", "li", "he"}) == False, "Only end"
+    assert end_of_other({"hello", "lo", "he"}) == True, "helLO"
+    assert end_of_other({"hello", "la", "hellow", "cow"}) == False, "hellow la cow"
+    assert end_of_other({"walk", "duckwalk"}) == True, "duck to walk"
+    assert end_of_other({"one"}) == False, "Only One"
+    assert end_of_other({"helicopter", "li", "he"}) == False, "Only end"
     print("Done! Time to check!")

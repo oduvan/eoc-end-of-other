@@ -10,7 +10,7 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var io = new extIO({
             multipleArguments: false,
             functions: {
-                python: 'checkio',
+                python: 'end_of_other',
                 js: 'endOfOther'
             }
         });
